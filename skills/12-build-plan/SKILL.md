@@ -1,6 +1,6 @@
 ---
 name: agent-build-plan
-description: Turn the specs into a sequenced, scoped build plan for an AI agent product — milestones, the smallest shippable MVP, and what to build in what order. Use whenever the user wants to plan the actual build, sequence the work, decide what goes in the MVP vs. later, break a spec into tasks, or figure out where to start coding. Trigger on "build plan", "what do I build first", "sequence the work", "MVP scope", "break this into tasks", "roadmap", even without those exact words. This is step 08 of the agent-dev-framework pipeline.
+description: Turn the specs into a sequenced, scoped build plan for an AI agent product — milestones, the smallest shippable MVP, and what to build in what order. Use whenever the user wants to plan the actual build, sequence the work, decide what goes in the MVP vs. later, break a spec into tasks, or figure out where to start coding. Trigger on "build plan", "what do I build first", "sequence the work", "MVP scope", "break this into tasks", "roadmap", even without those exact words. This is step 12 of the agent-dev-framework pipeline.
 ---
 
 # Agent Build Plan

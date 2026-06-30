@@ -42,7 +42,7 @@ the agent's tool-call signatures, error formats.
 
 ## Data model
 The entities and their relationships at implementation level. (The deeper data + event
-design lives in step 06; here, the schema the code needs.)
+design lives in step 10; here, the schema the code needs.)
 
 ## Dependencies
 Libraries, services, model provider, and anything with a cost or rate limit. Note version

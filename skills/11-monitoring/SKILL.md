@@ -1,11 +1,11 @@
 ---
 name: agent-monitoring
-description: Design production monitoring and alerting for an AI agent product — online quality signals, cost/latency tracking, bad-run review, and what to alert on. Use whenever the user wants to plan how to monitor an agent in production, decide what metrics or dashboards to track, set up alerting, or build a process for reviewing failed runs. Trigger on "monitoring", "observability in prod", "what should we track", "dashboards", "alerting", "how do we know if it breaks", even without those exact words. This is step 07 of the agent-dev-framework pipeline.
+description: Design production monitoring and alerting for an AI agent product — online quality signals, cost/latency tracking, bad-run review, and what to alert on. Use whenever the user wants to plan how to monitor an agent in production, decide what metrics or dashboards to track, set up alerting, or build a process for reviewing failed runs. Trigger on "monitoring", "observability in prod", "what should we track", "dashboards", "alerting", "how do we know if it breaks", even without those exact words. This is step 11 of the agent-dev-framework pipeline.
 ---
 
 # Agent Monitoring
 
-Offline evals (step 06) catch regressions before you ship. Monitoring catches what production
+Offline evals (step 10) catch regressions before you ship. Monitoring catches what production
 does that you didn't anticipate. For a non-deterministic agent in front of real users, this
 isn't optional polish — it's how you find the failure cases that become your next eval cases.
 
@@ -36,7 +36,7 @@ unacceptable failure mode (from the PRD). Everything else is a periodic review, 
 ### 3. Bad-run review loop
 The most valuable habit. A way to flag, surface, and read the full trace of failed or
 low-quality runs. Each bad run reviewed should either become a new eval case (feed it back to
-step 06) or get dismissed. This closes the loop: production failure → eval case → can't regress.
+step 10) or get dismissed. This closes the loop: production failure → eval case → can't regress.
 
 ### 4. State-changing-action monitoring (if applicable)
 Per `PROJECT.md`: if the agent takes real-world actions, monitor those specifically — what it

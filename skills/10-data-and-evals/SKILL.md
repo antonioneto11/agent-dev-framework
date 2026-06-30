@@ -1,6 +1,6 @@
 ---
 name: agent-data-and-evals
-description: Design the data model, event logging, and the starter eval set for an AI agent product. Use whenever the user wants to define what data to store, plan event/trace logging from day one, build an eval set or test cases for an agent, or set up how agent quality will be measured. Trigger on "data model", "what should we log", "evals", "test cases for the agent", "how do we measure quality", even without those exact words. This is step 06 of the agent-dev-framework pipeline, and the most important one for an agent product.
+description: Design the data model, event logging, and the starter eval set for an AI agent product. Use whenever the user wants to define what data to store, plan event/trace logging from day one, build an eval set or test cases for an agent, or set up how agent quality will be measured. Trigger on "data model", "what should we log", "evals", "test cases for the agent", "how do we measure quality", even without those exact words. This is step 10 of the agent-dev-framework pipeline, and the most important one for an agent product.
 ---
 
 # Agent Data & Evals

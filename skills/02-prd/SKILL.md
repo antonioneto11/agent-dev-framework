@@ -52,7 +52,7 @@ The one or two tasks the agent must perform. Concrete input → expected outcome
 - Which checks are deterministic (right tool called? valid output?) vs.
   judgment-based (sound reasoning? right tone? — needs LLM-judge or human).
 - Offline (before shipping a change) vs. online (sampled from real traffic).
-- Note: the actual eval cases get built in step 06; here you define the strategy.
+- Note: the actual eval cases get built in step 10; here you define the strategy.
 
 ## 6. Monitoring requirements          <- MANDATORY (full mode)
 - What must be observable in production: task success/failure, tool error rate,
